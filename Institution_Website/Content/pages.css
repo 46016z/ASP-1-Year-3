@@ -1,0 +1,73 @@
+div#page .col1 {
+    float: left;
+    width: 224px;
+    padding-left: 2px;
+}
+div#page .col2 {
+    float: left;
+    width: 470px;
+    margin-left: 20px;
+}
+div#page .col2-1 {
+    float: left;
+    width: 720px;
+    margin-left: 20px;
+}
+div#page .col3 {
+    float: left;
+    width: 250px;
+    margin-left: 20px;
+}
+
+div#page .col2 .title-2 select {
+    border: 1px solid #DBDBDB;
+    background-color: white;
+    color: #B5B5B5;
+}
+div#page .col2 .separator {
+    background: url( ../images/separator-3.gif ) center left repeat-x;
+    line-height: 30px;
+}
+div#page .col2 .row {
+    background: url( ../images/separator-3.gif ) bottom left repeat-x;
+    padding: 10px 0px;
+}
+
+div#page .col2 .row .date {
+    color: #828282;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+div#page .col2 .row .text {
+    color: #2F6198;
+}
+div#page .col2 .row .butt-1 {
+    margin-top: 5px;
+}
+div#page .col2 .marg {
+    margin-right: 15px;
+}
+
+div#page .col2 table {
+    background: url( ../images/separator-3.gif ) bottom left repeat-x;
+    padding: 0px 0px;
+	border:1px solid #336699;
+}
+
+div#page .col2 table th {  
+	background: #8FB6D7; 
+	color: white; 
+	font-weight: bold;
+	border:1px solid #336699;
+	font-size:9px;
+}
+
+div#page .col2 table td{
+    padding: 2px 2px;
+	border:1px solid #336699;
+	font-size:9px;
+}
+
+div#page .col2 ul {
+    margin-left: 25px;
+}

@@ -1,0 +1,148 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/bundles/jquery")
+    @RenderSection("JavaScript", required: false)
+
+</head>
+<body>
+    <div id="shadow">
+        <div class="width-wrap">
+
+            <div id="menu-top">
+
+                @if (!string.IsNullOrEmpty(ViewBag.UserEmail))
+                {
+                    @ViewBag.UserEmail
+                    <div class="separator">&nbsp;</div>
+                    <button onclick="Logout()">Излез</button>
+                }
+                else
+                {
+                    @Html.ActionLink("Вход в акаунт", "Login", "Main")
+                }
+
+                <div class="separator">&nbsp;</div>
+
+                <!-- end navigation top -->
+
+            </div>
+
+            <div id="header">
+
+                <div class="fontsize">
+                    
+
+                    <a href="javascript:;" onclick="zoomin(-1);"><img src="@Url.Content("~/themes/default/images/icons/minus.gif")" width="8" height="8" alt="" /></a>
+                    <div class="separator">&nbsp;</div>
+                    <a href="javascript:;" onclick="zoomin(1);"><img src="@Url.Content("~/themes/default/images/icons/plus.gif")" width="8" height="8" alt="" /></a>
+                    <div class="separator">&nbsp;</div>
+                    <div class="right">Размер на шрифта&nbsp;</div>
+
+                    <input type="hidden" value="12" id="zlevel" />						<a href="/bg/rss.html" class="rss">RSS</a>
+                </div>
+                <div class="search-form">
+                    
+
+                    <form id="quickSearch" action="/search/index/index/lang/bg" method="post">
+                        <input type="text" id="quicksearch-keywords" name="keywords" value="Търсене" class="keywords" />
+                        <input type="submit" name="go" value="Търсене" class="submit" onclick="quickSearch.submit();" />
+                    </form>
+                </div>
+                <a href="@Url.Action("Index", "Main")">
+                    <img src="@Url.Content("~/themes/default/images/logo_bg.png")" alt="" class="logo" />
+                </a>
+            </div>
+
+            <div id="menu-main">
+
+                <div class="cl">
+                    <div class="cr">
+                        <ul>
+                            <li>
+                                <div>
+                                    @Html.ActionLink("Министерство", "About", "Main")
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    @Html.ActionLink("Фотогалерия", "Gallery", "Main")
+                                </div>
+                            </li>
+                        </ul>
+
+                        <!-- end navigation top -->
+
+                    </div>
+                </div>
+            </div>
+            <!--
+            <div class="sharePosts">
+                <a href="/contact/share/lang/bg" title="Споделете мнения за сайта">Споделете мнения за сайта</a>
+            </div>
+            -->
+            <div id="breadcrumb">
+            </div>
+
+            @RenderBody()
+
+            <div>
+                <a target="_blank" href="/banners/index/click/lang/bg/id/32" title="Оперативна програма &quot;Иновации и конкурентоспособност&quot; 2014-2020">
+                    <img border="0" src="@Url.Content("~/files/banners/file/banner-32-2-4329.jpg")" alt="Оперативна програма " Иновации и конкурентоспособност" 2014-2020" class="PR3" />
+                </a>
+                <a target="_blank" href="/banners/index/click/lang/bg/id/38" title="BREXIT">
+                    <img border="0" src="@Url.Content("~/files/banners/file/banner-38-2-5643.jpg")" alt="BREXIT" class="PR3" />
+                </a>
+            </div>
+            <div class="clear1">&nbsp;</div>
+            <div id="contacts">
+                <span class="title">Контакти:</span> <span>София 1052</span> <span>ул. "Славянска" 8</span> <span>тел. центр.: +359 2 9407001</span> <span><a href="mailto:e-docs@mi.government.bg">e-docs@mi.government.bg</a></span>
+                <div><span class="title">Последвайте ни:</span> Фейсбук<span> <a title="Последвайте ни във Фейсбук" href="https://www.facebook.com/economicministrybg/" target="_blank"> <img longdesc="https://www.facebook.com/economicministry" src="@Url.Content("~/files/useruploads/images/iconsmi/fb.jpg")" alt="Профил на Министерство на икономиката" width="16" height="16" /></a></span> Туитър<span> <a title="Последвайте ни в Туитър" href="https://twitter.com/MoEBulgaria" target="_blank"> <img longdesc="https://www.facebook.com/economicministry" src="@Url.Content("~/files/useruploads/images/twitter.jpg")" alt="Профил на Министерство на икономиката" width="16" height="16" /></a></span></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer">
+        <div class="blend">
+            <div class="width-fwrap">
+
+                <a class="left" href="/bg/pages/accessibility-72.html">Достъпност</a>
+                <a class="left" href="/bg/pages/security-71.html">Сигурност</a>
+
+
+
+
+                <div class="icygen"><a href="http://www.icygen.com/" target="_blank">Web Design Internet Marketing</a> by ICYGEN</div>
+                <div class="copy">© Министерство на икономиката на Република България</div>
+            </div>
+        </div>
+    </div>
+
+    @section JavaScript
+    {
+    <script type="text/javascript">
+        function zoomin(zlevel) {
+            var zlevelCurrent = parseInt(jQuery("#zlevel").val());
+            var level = zlevelCurrent + parseInt(zlevel);
+            jQuery("#zlevel").val(level);
+
+            jQuery("body").css("font-size", level);
+        }
+
+        jQuery(document).ready(function () {
+            jQuery("#quicksearch-keywords").click(function () {
+                if (jQuery(this).val() == 'Търсене') {
+                    jQuery(this).val('');
+                }
+                return false;
+            })
+        })
+    </script>
+     }
+</body>
+</html>

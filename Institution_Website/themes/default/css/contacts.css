@@ -1,0 +1,138 @@
+/*
+    Document   : team
+    Created on : 2011-7-14, 14:10:13
+    Author     : ICYGEN
+    Description:
+        Team pages
+*/
+
+div#page .col1 {
+    float: left;
+    width: 224px;
+    padding-left: 2px;
+}
+div#page .col2 {
+    float: left;
+    width: 470px;
+    margin-left: 20px;
+}
+div#page .col3 {
+    float: left;
+    width: 250px;
+    margin-left: 20px;
+}
+
+
+div#page .cform {
+	background-color:#E6E6E6;
+}
+
+div#page .cform .title {
+    font-family: Georgia, Verdana, Arial, sans;
+    color: #fff;
+    font-size: 1.2em;
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 5px;
+	background-color:#8fb6d7;
+	padding:3px 12px;
+}
+
+div#page .cform .panel {
+	padding:10px 15px;
+}
+
+div#page .cform .p20 {
+	padding-left:20px;
+}
+
+div#page .cform label {
+	width:50%;
+	clear:both;
+	float:left;
+}
+div#page .cform .inp, div#page .cform textarea {
+	clear:both;
+    color: #9B9B9B;
+    font-size: 0.8em;
+    padding: 2px 6px;
+    margin-bottom: 3px;
+    width: 180px;
+    border: 1px solid #DBDBDB;
+	float:left;
+	background-color:white;
+}
+div#page .cform .scode {
+    font-size: 0.9em;
+    margin-bottom: 5px;
+}
+
+div#page .cform a {
+	text-decoration:underline;
+}
+
+.butt-send {
+    background: url( ../images/buttons/butt-2-cl.png ) top left no-repeat;
+    padding-left: 5px;
+    color: white;
+}
+.butt-send .cr {
+    background: url( ../images/buttons/butt-2-cr.png ) top right no-repeat;
+    padding-right: 5px;
+}
+.butt-send .cr div {
+    background: url( ../images/buttons/butt-2.png ) top repeat-x;
+    height: 18px;
+    font-size: 10px;
+    line-height: 16px;
+    padding: 0px 4px;
+}
+.butt-send a {
+    color: white;
+	text-decoration:none !important;
+	text-transform:uppercase;
+}
+
+.w390 {	width:395px !important;	}
+
+.w290 {	width:290px !important;	}
+
+.w100 {	width:100px !important;	}
+
+div#page .col3 .contacts {
+    margin-bottom: 6px;
+    margin-top: 6px;
+    position:relative;
+}
+div#page .col3 .contacts .title {
+    color: #184677;
+    font-family: Georgia,Verdana,Arial,sans;
+    font-size: 1.4em;
+    font-style: italic;
+    margin-bottom: 3px;
+	font-weight:bold;
+}
+div#page .col3 .contacts .text {
+    color: #184677;
+    font-size: 0.9em;
+    margin: 28px 0 6px;
+}
+div#page .col2 table {
+    background: url( ../images/separator-3.gif ) bottom left repeat-x;
+    padding: 0px 0px;
+	border:1px solid #336699;
+}
+
+div#page .col2 table th {  
+	background: #8FB6D7; 
+	color: white; 
+	font-weight: bold;
+	border:1px solid #336699;
+	font-size:9px;
+}
+
+div#page .col2 table td{
+    padding: 2px 2px;
+	border:1px solid #336699;
+	font-size:9px;
+}

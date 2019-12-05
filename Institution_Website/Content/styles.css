@@ -1,0 +1,60 @@
+@CHARSET "UTF-8";
+
+.closed {
+    background: url( ../themes/default/images/icons/closed.gif ) top left no-repeat;
+    padding-left: 6px;
+}
+ul.errors{
+	float:none;
+	clear:both;
+}
+.errors li{
+	list-style: none outside;
+    margin: 0px;
+    padding: 0px;
+    font-size:10px;
+    color:#FF6666;
+}
+
+.login-form-container {
+    margin: 10px 0 !important;
+    padding: 10px !important;
+    text-align: center !important;
+}
+
+.login-form-container > div {
+    margin: 3px 0 !important;
+}
+ul.messages{
+	float:none;
+	clear:both;
+}
+.messages li{
+	list-style: none outside;
+    margin: 0px;
+    padding: 0px;
+    font-size:10px;
+    color:#66CC66;
+}
+
+ul.importantFiles .hidden {
+	display:none;
+}
+ul.filesForms .hidden {
+	display:none;
+}
+
+
+ul.registersWidget {
+	margin: 5px 0;
+	paddin:0;
+	
+}
+ul.registersWidget li {
+	margin: 0;
+	paddin:0;
+	list-style: none outside;
+}
+ul.registersWidget .hidden {
+	display:none;
+}

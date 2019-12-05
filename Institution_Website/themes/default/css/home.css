@@ -1,0 +1,390 @@
+/*
+    Document   : home
+    Created on : 2011-7-5, 14:45:45
+    Author     : ICYGEN
+    Description:
+        Home page styles
+*/
+
+div#flash-box .main {
+    float: left;
+    background: url( ../images/backgrounds/flash-box-main-tile.gif ) top repeat-x;
+    width: 728px;
+    background-color: #4682B4;
+}
+    div#flash-box .main .shadow {
+        background: url( ../images/backgrounds/flash-box-main-shadow.jpg ) top right no-repeat;
+        height: 297px;
+        overflow: hidden;
+        padding: 14px 16px 0px 0px;
+        position: relative;
+        /* color: white;*/
+    }
+
+div.shadow-block {
+    background-color:transparent !important;
+	width:708px;
+}
+
+div#flash-box .main .title {
+    font-family: Georgia, Verdana, Arial, sans;
+    font-size: 1.6em;
+    font-style: italic;
+    margin: 45px 0px 10px 20px;
+	color:#fff;
+	*margin-top:48px !important;
+}
+
+div#flash-box .main .title a {
+    font-family: Georgia, Verdana, Arial, sans;
+    font-size: 1.0em;
+    font-style: italic;
+    padding: 0px 0px 10px 0px;
+	color:#fff;
+}
+
+div#flash-box .image{
+	float:right;
+	width:360px;
+	margin-top:-35px;
+}
+div#flash-box .image img{
+	float:right;
+
+}
+div.shadow .home-events{
+	position:absolute;
+	top:17px;
+	left:21px;
+}
+
+div#flash-box .main .text {
+    font-size: 1.0em;
+    font-style: italic;
+    margin-left: 20px;
+	color:#fff;
+	width:320px;
+	min-width:320px;
+}
+div#nav{position:absolute;top:280px;left:354px;z-index:5;}
+div#nav a{background: url( ../images/buttons/btn_normal.png ) top left no-repeat;
+   width:31px;height:33px; float:left;text-decoration:none;outline: none;
+    color:white; padding-top:8px;padding-left:1px; font-size:14px;}
+div#nav a span{padding-left:9px;}
+div#nav a.activeSlide{background: url( ../images/buttons/btn_rol.png ) top left no-repeat;
+width:31px;height:33px; float:left}
+
+div#flash-box .main .butt-5 {
+    margin: 12px 0px 0px 20px;
+}
+
+div#flash-box .item-1, div#flash-box .item-2, div#flash-box .item-3 {
+    float: left;
+    width: 196px;
+    height: 50px;
+    overflow: hidden;
+    color: white;
+    padding: 16px 1px 1px 45px;
+}
+div#flash-box .item-1 a, div#flash-box .item-2 a, div#flash-box .item-3 a {
+    color: white;
+    line-height: 1.2em;
+}
+div#flash-box .item-1 {
+    background: url( ../images/backgrounds/flash-box-item-1.png ) top left no-repeat;
+}
+div#flash-box .item-2 {
+    background: url( ../images/backgrounds/flash-box-item-2.png ) top left no-repeat;
+    padding-left: 48px;
+    width: 194px;
+}
+div#flash-box .item-3 {
+    background: url( ../images/backgrounds/flash-box-item-3.png ) top left no-repeat;
+    padding-left: 51px;
+    width: 191px;
+}
+div#flash-box .active-1 {
+    background-image: url( ../images/backgrounds/flash-box-item-1-a.png );
+}
+div#flash-box .active-2 {
+    background-image: url( ../images/backgrounds/flash-box-item-2-a.png );
+}
+div#flash-box .active-3 {
+    background-image: url( ../images/backgrounds/flash-box-item-3-a.png );
+}
+div#flash-box .calendar {
+    float: right;
+    background: url( ../images/backgrounds/flash-box-calendar-tile.gif ) top repeat-x;
+    width: 262px;
+    height: 156px;
+    overflow: hidden;
+    color: white;
+}
+div#flash-box .calendar .title {
+    font-family: Georgia, Verdana, Arial, sans;
+    font-size: 1.4em;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 2px;
+}
+
+div#flash-box .calendar .text,
+div#flash-box .calendar .text a {
+    font-size: 11px;
+    margin: 7px 0px 8px 0px;
+	color:white;
+}
+
+div#flash-box .howto {
+    float: right;
+    background: url( ../images/backgrounds/flash-box-howto-back.png ) top left no-repeat;
+    width: 246px;
+    height: 160px;
+    padding: 15px 1px 1px 15px;
+}
+div#flash-box .howto .title {
+    font-family: Georgia, Verdana, Arial, sans;
+    color: #ff7e00;
+    font-size: 1.4em;
+    font-weight: bold;
+    font-style: italic;
+	padding-bottom:10px;
+}
+div#flash-box .howto .question {
+	padding-bottom:18px;
+	font-size:16px;
+	font-family: Georgia, Verdana, Arial, sans;
+	color:#fff;
+}
+div#flash-box .row {
+    font-size: 0.9em;
+    background: url( ../images/separator-4.png ) bottom left no-repeat;
+    padding: 6px 0px;
+}
+div#flash-box .row a {
+    color: white;
+}
+div#flash-box .last {
+    background-image: none;
+}
+div#flash-box .clear3 {
+    background: url( ../images/backgrounds/flash-box-bottom.png ) top left no-repeat;
+    line-height: 12px;
+    height: 12px;
+}
+
+.butt-1 {
+	position: absolute;
+	bottom:0;
+}
+div#page .col1 .content .butt-1 {
+	position: relative;
+}
+div#page .col1 {
+    float: left;
+    width: 484px;
+    min-height: 320px;
+    margin-top: 12px;
+	/* position:relative; */
+}
+div#page .col1 .content{
+    border-bottom:1px dotted;
+	margin: 0 10px 10px 10px;
+    padding: 0 0 10px;
+	float:left;
+	width:437px;
+}
+div#page .col1 .date{
+	float:left;
+    margin-bottom: 10px;
+	width:100%;
+}
+div#page .col1 .title {
+    float:left;
+	width:100%;
+	margin-bottom:7px;
+}
+div#page .col2 {
+    float: left;
+    width: 242px;
+    background: url( ../images/separator-2.gif ) top left repeat-y;
+    padding-left: 1px;
+    min-height: 320px;
+    margin-top: 12px;
+	/* position:relative; */
+}
+div#page .col3 {
+    float: left;
+    width: 250px;
+    padding-left: 8px;
+	min-height: 320px;
+	margin-top:-20px;
+	/* position:relative; */
+}
+div#page .col1 .title-4, div#page .col2 .title-4 {
+    margin-bottom: 8px;
+    padding-bottom: 28px;
+}
+div#page .col1 .content, div#page .col2 .content {
+    padding: 0px 10px 7px 14px;
+    font-size: 0.9em;
+}
+div#page .col1 .pic, div#page .col2 .pic {
+    margin-bottom: 8px;
+}
+div#page .col1 .date, div#page .col2 .date {
+    color: #828282;
+    margin-bottom: 11px;
+}
+div#page .col1 .title, div#page .col2 .title {
+    color: #2F6198;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+div#page .col1 .text, div#page .col2 .text {
+    margin: 10px 0px;
+}
+div#page .info img {
+    float: left;
+    margin: 0px 10px 0px 3px;
+}
+div#page .info a {
+    font-family: Georgia, Verdana, Arial, sans;
+    color: #2F6198;
+    font-weight: bold;
+    font-style: italic;
+}
+div#page .signals {
+    padding: 8px 20px 0px 8px;
+}
+div#page .signals .title {
+    font-family: Georgia, Verdana, Arial, sans;
+    color: #FF7E00;
+    font-weight: bold;
+    font-style: italic;
+}
+div#page .signals .row {
+    font-size: 0.9em;
+    background: url( ../images/separator-3.gif ) bottom left repeat-x;
+    padding: 5px 1px;
+}
+div#page .signals .last {
+    background-image: none;
+}
+div#page .signals .row a {
+    color: #2F6198;
+}
+div#page .signals .row img {
+    margin-right: 6px;
+    position: relative;
+    top: 3px;
+}
+div#page .poll {
+    margin: 6px 0px;
+}
+div#page .poll .title {
+    font-family: Georgia, Verdana, Arial, sans;
+    color: #2F6198;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 3px;
+}
+div#page .poll .question {
+    font-size: 0.9em;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+div#page .poll .answers {
+    font-size: 0.9em;
+    margin-bottom: 4px;
+}
+div#page .poll .answers .shift {
+    margin-right: 12px;
+	position: relative;
+    top:-3px;
+}
+div#page .poll #results-holder {
+    font-size: 0.9em;
+}
+div.sharePosts {
+    background: url( ../images/arrow_share_opp.png ) bottom left repeat-x;
+    width:193px;
+    height:60px;
+    position:absolute;
+    right:-14px;
+    top:456px;
+}
+div.sharePosts a {
+    color: white;
+    display: block;
+    font-family: Verdana,Geneva,sans-serif;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: bold;
+    height: 54px;
+    padding: 8px 8px 0 57px;
+    text-align: center;
+    text-shadow: -1px 1px 2px #D97603;
+    width: 128px;
+}
+/* 
+.fixBtnBottomPos {
+    bottom: -16px;
+} */
+
+.fixBtnBottomPos {
+    bottom: 16px;
+}
+
+div#page {
+    position: relative;
+}
+
+div#page .col1 .content .text {
+    margin-bottom: 30px;
+    clear: both;
+}
+
+div#page .col2 .content .text {
+    margin-bottom: 30px;
+    clear: both;
+}
+
+div#page .col3 .content .text {
+    margin-bottom: 30px;
+    clear: both;
+}
+
+.buyer-profile {
+    background-color: #4682b4;
+    border: 3px solid #a5bbd3;
+    height: 42px;
+	margin-bottom:3px;
+	margin-top:3px;
+    padding: 12px 0 0 8px;
+    text-align: center;
+}
+.buyer-profile a{
+	color:white;
+    cursor: pointer;
+    font-family: Georgia,Verdana,Arial,sans;
+    font-size: 18px;
+    font-style: italic;
+    margin-top: 5px;
+    text-decoration: none;
+}
+div#page .col4 {
+	width:0px;
+    background: none;
+	/* position:relative; */
+}
+div#page .col5 {
+	width:726px;
+}
+div#page .col1 .imgHolder{
+	float:left;
+	width:100%;
+}
+div#page .col5 .content {
+	width:695px;
+}
