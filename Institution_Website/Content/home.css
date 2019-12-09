@@ -7,9 +7,9 @@
 */
 
 div#flash-box .main {
-    float: left;
+    position: relative;
+    width: 100%;
     background: url( ../themes/default/images/backgrounds/flash-box-main-tile.gif ) top repeat-x;
-    width: 728px;
     background-color: #4682B4;
 }
     div#flash-box .main .shadow {
@@ -194,9 +194,8 @@ div#page .col1 .content .butt-1 {
 	position: relative;
 }
 div#page .col1 {
-    float: left;
-    width: 484px;
-    min-height: 320px;
+    position: relative;
+    width: 50%;
     margin-top: 12px;
 	/* position:relative; */
 }
@@ -218,11 +217,8 @@ div#page .col1 .title {
 	margin-bottom:7px;
 }
 div#page .col2 {
-    float: left;
-    width: 242px;
     background: url( ../themes/default/images/separator-2.gif ) top left repeat-y;
     padding-left: 1px;
-    min-height: 320px;
     margin-top: 12px;
     /* position:relative; */
 }

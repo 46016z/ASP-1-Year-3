@@ -4,6 +4,19 @@
     background: url( ../themes/default/images/icons/closed.gif ) top left no-repeat;
     padding-left: 6px;
 }
+
+.client-documents-content {
+    padding: 0 20px 20px;
+}
+
+.custom-button {
+    color: #E87607;
+    background-color: white;
+    height: 26px;
+    padding: 0 4px;
+    border-radius: 2px;
+}
+
 ul.errors{
 	float:none;
 	clear:both;

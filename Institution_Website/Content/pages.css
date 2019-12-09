@@ -1,12 +1,14 @@
+#pageMainContentContainer {
+    padding: 10px;
+}
+
 div#page .col1 {
     float: left;
-    width: 224px;
     padding-left: 2px;
 }
 div#page .col2 {
     float: left;
     width: 470px;
-    margin-left: 20px;
 }
 div#page .col2-1 {
     float: left;

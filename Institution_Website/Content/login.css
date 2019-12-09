@@ -1,0 +1,9 @@
+﻿#loginContainer {
+    padding: 30px 0;
+    text-align: center;
+}
+
+#loginContainer .input-container {
+    padding: 5px 0;
+}
+

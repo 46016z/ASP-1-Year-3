@@ -28,14 +28,21 @@ namespace Institution_Website.Controllers
             return View();
         }
 
+        public ActionResult ClientDocuments()
+        {
+            return View();
+        }
+
         public ActionResult Login()
         {
             return View();
         }
 
-        public void Logout()
+        public ActionResult Logout()
         {
             ViewBag.UserEmail = null;
+
+            return View("Index");
         }
     }
 }

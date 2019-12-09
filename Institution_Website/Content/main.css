@@ -12,6 +12,10 @@ body, img, table, iframe, ul, ol, li, form {
     padding: 0px;
 	list-style-position: inside;
 }
+
+#logout-button {
+    margin: 0 10px;
+}
 img, iframe {
     border: 0px;
 }
@@ -28,16 +32,16 @@ div#menu-top .webmail {
 	height:15px;
 }
 .butt-1 {
-    background: url( ../themes/default/images/buttons/butt-1-cl.png ) top left no-repeat;
+    background: url( ../Images/butt-1-cl.png ) top left no-repeat;
     padding-left: 6px;
     display: block;
 }
     .butt-1 .cr {
-        background: url( ../themes/default/images/buttons/butt-1-cr.png ) top right no-repeat;
+        background: url( ../Images/butt-1-cr.png ) top right no-repeat;
         padding-right: 8px;
     }
         .butt-1 .cr div {
-            background: url( ../themes/default/images/buttons/butt-1.png ) top repeat-x;
+            background: url( ../Images/butt-1.png ) top repeat-x;
             height: 26px;
             font-size: 11px;
             line-height: 22px;
@@ -211,7 +215,7 @@ div#menu-top .webmail {
 /* Main elements */
 body {
     color: #010101;
-    background: white url( ../themes/default/images/backgrounds/main.png ) top repeat-x;
+    background: white url( ../Images/main.png ) top repeat-x;
     font-family: Verdana, Arial, sans;
     font-size: 11px;
     line-height: normal;
@@ -219,7 +223,7 @@ body {
 div#shadow {
     width: 1032px;
     margin: 0px auto;
-    background: url( ../themes/default/images/backgrounds/shadow.png ) top left no-repeat;
+    background: url( ../Images/shadow.png ) top left no-repeat;
 }
 .width-wrap {
     width: 990px;
@@ -252,7 +256,7 @@ div#pagination .next {
 /* Header */
 div#menu-top {
     height: 23px;
-    background: url( ../themes/default/images/backgrounds/menu-top.gif ) top repeat-x;
+    background: url( ../Images/menu-top.gif ) top repeat-x;
     font-size: 0.8em;
     text-align: right;
     line-height: 22px;
@@ -287,7 +291,7 @@ div#menu-top .imgM {
 
 div#header {
     height: 99px;
-    background: url( ../themes/default/images/backgrounds/header.gif ) top repeat-x;
+    background: url( ../Images/header.gif ) top repeat-x;
 }
 div#header .logo {
     margin: 11px 0px 0px 23px;
@@ -351,7 +355,7 @@ div#header .fontsize img {
 
 /* Main menu & Breadcrumb */
 div#menu-main {
-    background: url( ../themes/default/images/backgrounds/menu-tile.gif ) top repeat-x;
+    background: url( ../Images/menu-tile.gif ) top repeat-x;
     clear: both;
 }
     div#menu-main .cl {
@@ -512,7 +516,8 @@ div#contacts a {
 }
 
 div#footer {
-    background: url( ../themes/default/images/backgrounds/footer-tile.gif ) top repeat-x;
+    text-align: center;
+    background: url( ../Images/footer-tile.gif ) top repeat-x;
     margin-bottom: 20px;
 }
     div#footer .blend {
